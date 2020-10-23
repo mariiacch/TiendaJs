@@ -1,0 +1,152 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    color: #495057;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(204, 204, 204, 0.37);
+   
+}
+
+.container1 {
+    display: flex;
+    /*;*/
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.avatar {
+    /*  width: 300px;*/
+    position: relative;
+    top: -20px;
+    align-self: flex-end;
+padding-bottom: 50px;
+
+
+}
+
+
+.title {
+padding-bottom: 50px;
+    align-self: center;
+    font-size: 30px;
+    font-weight: 300;
+
+
+}
+
+.title:hover {
+    color: rgb(95, 17, 17);
+    cursor: pointer;
+}
+
+.avatar>img {
+    height: 100px;
+
+
+    
+    object-fit: cover;
+    /*para que no se distorcione*/
+
+
+}
+
+.icons {
+
+    margin-bottom: 150px;
+
+}
+
+.icons>i {
+    font-size: 20px;
+    margin: 0 5px;
+
+
+}
+
+i:hover {
+    color: rgb(95, 17, 17);
+    cursor: pointer;
+
+}
+
+aside{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    position: relative;
+    bottom: -200px;
+
+}
+.maspedido {
+    
+    
+
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.maspedido>h1 {
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0 ;
+    margin-left: 15px;
+}
+
+.main {
+    margin-top: 200px;
+    margin-left: 200px;
+    display: flex;
+
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 10px rgba(204, 204, 204, 0.37);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+
+    align-items: center;
+}
+
+
+
+.products-list  {
+
+    width: 300px;
+    list-style: none;
+
+}
+
+
+.products-list  > ul{
+list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.product-image>img {
+
+
+    width: 100%;
+}
